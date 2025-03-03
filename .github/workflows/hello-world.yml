@@ -6,7 +6,4 @@ jobs:
     steps:
       - name: my-step
         run: |
-          echo "Hello World!"
-          ls -l
-          mkdir test_sai
-          ls -l
+          ls
