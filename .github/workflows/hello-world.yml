@@ -6,5 +6,4 @@ jobs:
     steps:
       - name: my-step
         run: |
-          ls
-          sudo apt-get install -y python3
+          pip install streamsets
